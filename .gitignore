@@ -1,0 +1,4 @@
+*.txt
+!*_test.txt
+
+c/main
