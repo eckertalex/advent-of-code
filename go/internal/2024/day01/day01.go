@@ -73,7 +73,7 @@ func (s *Solution) Part1(input *input.Input) string {
 
 	length := min(len(ls), len(rs))
 	xs := make([]int, length)
-	for i := 0; i < length; i++ {
+	for i := range length {
 		xs[i] = abs(ls[i] - rs[i])
 	}
 

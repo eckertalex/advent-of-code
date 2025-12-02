@@ -85,7 +85,7 @@ func (s *Solution) Part2(input *input.Input) string {
 			continue
 		}
 
-		for i := 0; i < len(report); i++ {
+		for i := range report {
 			rs := remove(report, i)
 			if isSafeReport(rs) {
 				safeCount++
