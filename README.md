@@ -6,7 +6,7 @@ This repository contains my solutions to [Advent of Code](https://adventofcode.c
 | ---- | ----------- | --- |
 | 2021 | TypeScript  | 28  |
 | 2024 | Go          | 14  |
-| 2025 | C           | 2   |
+| 2025 | C           | 4   |
 
 ## 🏆 Solutions
 
@@ -46,3 +46,4 @@ This repository contains my solutions to [Advent of Code](https://adventofcode.c
 | Day | Part 1 | Part 2 |
 | --- | ------ | ------ |
 | 1   | ⭐     | ⭐     |
+| 2   | ⭐     | ⭐     |

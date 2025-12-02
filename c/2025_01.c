@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int part1(char* file_path) {
+int part1(const char* file_path) {
     FILE* file = fopen(file_path, "r");
 
     if(!file) {
@@ -41,7 +41,7 @@ int part1(char* file_path) {
 }
 
 
-int part2(char* file_path) {
+int part2(const char* file_path) {
     FILE* file = fopen(file_path, "r");
 
     if(!file) {
