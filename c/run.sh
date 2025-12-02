@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-# Exit on any error
 set -e
 
 if [ -f main ]; then
