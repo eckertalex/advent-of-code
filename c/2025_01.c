@@ -11,8 +11,7 @@ int part1(const char* file_path) {
 
     int dial = 50;
     int count = 0;
-    char buffer[8];
-
+    char buffer[6];
     while (fgets(buffer, sizeof buffer, file)) {
         char direction = buffer[0];
         buffer[0] = '+';
@@ -51,8 +50,7 @@ int part2(const char* file_path) {
 
     int dial = 50;
     int count = 0;
-    char buffer[8];
-
+    char buffer[6];
     while (fgets(buffer, sizeof buffer, file)) {
         char direction = buffer[0];
         buffer[0] = '+';
