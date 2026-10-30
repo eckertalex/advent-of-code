@@ -33,7 +33,7 @@ typedef double f64;
 
 #define Trap() __builtin_trap()
 
-// Days are always debug builds, so asserts are always on
+// Always on: days are always debug builds
 #define Assert(x)                                                              \
     do {                                                                       \
         if (!(x)) {                                                            \

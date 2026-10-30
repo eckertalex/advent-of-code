@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"aoc/util"
+	"aoc/go/util"
 )
 
 type Equation struct {
@@ -95,7 +95,7 @@ func part2(lines []string) string {
 }
 
 func main() {
-	filePath := "../data/2024-07-test.txt"
+	filePath := "data/2024-07-test.txt"
 	if len(os.Args) > 1 {
 		filePath = os.Args[1]
 	}

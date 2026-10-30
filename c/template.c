@@ -18,7 +18,7 @@ internal i64 part2(String8 input) {
 }
 
 int main(int argc, char *argv[]) {
-    char *file_path = (argc > 1) ? argv[1] : "../data/YYYY-DD-test.txt";
+    char *file_path = (argc > 1) ? argv[1] : "data/YYYY-DD-test.txt";
 
     String8 input = read_file(file_path);
     if (input.str == nullptr) {

@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"aoc/util"
+	"aoc/go/util"
 )
 
 func splitRulesUpdates(lines []string) ([][]string, [][]string) {
@@ -80,7 +80,7 @@ func part2(lines []string) string {
 }
 
 func main() {
-	filePath := "../data/2024-05-test.txt"
+	filePath := "data/2024-05-test.txt"
 	if len(os.Args) > 1 {
 		filePath = os.Args[1]
 	}

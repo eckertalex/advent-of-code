@@ -5,8 +5,7 @@
 
 int is_invalid_id1(long id) {
     char s[32];
-    snprintf(s, sizeof s, "%ld", id);
-    int len = strlen(s);
+    int len = snprintf(s, sizeof s, "%ld", id);
 
     if(len % 2 != 0) {
         return 0;
@@ -25,8 +24,7 @@ int is_invalid_id1(long id) {
 
 int is_invalid_id2(long id) {
     char s[32];
-    snprintf(s, sizeof s, "%ld", id);
-    int len = strlen(s);
+    int len = snprintf(s, sizeof s, "%ld", id);
 
     for(int pattern_len = 1; pattern_len <= len/2; pattern_len++) {
         if(len % pattern_len != 0) {
@@ -94,7 +92,7 @@ long part2(char* input) {
 }
 
 int main(int argc, char *argv[]) {
-    char* file_path = (argc > 1) ? argv[1] : "../data/2025-02-test.txt";
+    char* file_path = (argc > 1) ? argv[1] : "data/2025-02-test.txt";
 
     FILE* file = fopen(file_path, "r");
 

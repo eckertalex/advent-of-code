@@ -7,7 +7,7 @@ import (
 	"os"
 	"strconv"
 
-	"aoc/util"
+	"aoc/go/util"
 )
 
 func isWordMatch(matrix [][]rune, word []rune, row, col int, direction [2]int) bool {
@@ -100,7 +100,7 @@ func part2(lines []string) string {
 }
 
 func main() {
-	filePath := "../data/2024-04-test.txt"
+	filePath := "data/2024-04-test.txt"
 	if len(os.Args) > 1 {
 		filePath = os.Args[1]
 	}

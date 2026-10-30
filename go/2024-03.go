@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"aoc/util"
+	"aoc/go/util"
 )
 
 func mulitply(text string) int {
@@ -54,7 +54,7 @@ func part2(lines []string) string {
 }
 
 func main() {
-	filePath := "../data/2024-03-test.txt"
+	filePath := "data/2024-03-test.txt"
 	if len(os.Args) > 1 {
 		filePath = os.Args[1]
 	}

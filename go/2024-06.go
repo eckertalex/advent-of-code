@@ -7,7 +7,7 @@ import (
 	"os"
 	"strconv"
 
-	"aoc/util"
+	"aoc/go/util"
 )
 
 var directionOrder = []rune{'^', '>', 'v', '<'}
@@ -97,7 +97,7 @@ func part2(lines []string) string {
 }
 
 func main() {
-	filePath := "../data/2024-06-test.txt"
+	filePath := "data/2024-06-test.txt"
 	if len(os.Args) > 1 {
 		filePath = os.Args[1]
 	}

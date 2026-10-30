@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"os"
 
-	"aoc/util"
+	"aoc/go/util"
 )
 
 func part1(lines []string) int {
@@ -18,7 +18,7 @@ func part2(lines []string) int {
 }
 
 func main() {
-	filePath := "../data/YYYY-DD-test.txt"
+	filePath := "data/YYYY-DD-test.txt"
 	if len(os.Args) > 1 {
 		filePath = os.Args[1]
 	}

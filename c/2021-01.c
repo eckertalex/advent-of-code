@@ -27,7 +27,7 @@ internal i64 part2(i32 *measurements, u64 count) {
 }
 
 int main(int argc, char *argv[]) {
-    char *file_path = (argc > 1) ? argv[1] : "../data/2021-01-test.txt";
+    char *file_path = (argc > 1) ? argv[1] : "data/2021-01-test.txt";
 
     String8 input = read_file(file_path);
     if (input.str == nullptr) {

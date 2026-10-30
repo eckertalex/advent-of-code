@@ -82,7 +82,7 @@ long part2(FILE* file) {
 }
 
 int main(int argc, char *argv[]) {
-    char* file_path = (argc > 1) ? argv[1] : "../data/2025-03-test.txt";
+    char* file_path = (argc > 1) ? argv[1] : "data/2025-03-test.txt";
 
     FILE* file = fopen(file_path, "r");
 

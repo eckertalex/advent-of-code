@@ -15,7 +15,7 @@ function part2(rawInput: string): number {
 
 function main() {
   try {
-    const filePath = argv.length >= 3 ? argv[2] : "../data/YYYY-DD-test.txt";
+    const filePath = argv.length >= 3 ? argv[2] : "data/YYYY-DD-test.txt";
     const input = readFileSync(filePath, "utf8").trim();
 
     const solution1 = part1(input);

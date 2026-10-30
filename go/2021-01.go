@@ -7,7 +7,7 @@ import (
 	"os"
 	"strconv"
 
-	"aoc/util"
+	"aoc/go/util"
 )
 
 func parseMeasurements(lines []string) []int {
@@ -47,7 +47,7 @@ func part2(measurements []int) int {
 }
 
 func main() {
-	filePath := "../data/2021-01-test.txt"
+	filePath := "data/2021-01-test.txt"
 	if len(os.Args) > 1 {
 		filePath = os.Args[1]
 	}
